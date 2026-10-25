@@ -2,6 +2,20 @@
 
 Este guia mostra como instalar e usar o servidor **Playwright MCP oficial da Microsoft** no VS Code.
 
+## O que é Playwright e para que serve?
+
+**Playwright** é uma ferramenta de automação de navegadores. Um programa pode usá-la para abrir páginas, clicar em elementos, preencher campos, verificar o conteúdo e capturar screenshots.
+
+Ela é usada principalmente para:
+
+- **Testes end-to-end (E2E):** simular ações de uma pessoa usuária e verificar se um site funciona.
+- **Compatibilidade entre navegadores:** testar em Chromium, Firefox e WebKit.
+- **Automação de tarefas:** interagir com páginas de forma programática, como preencher formulários ou coletar informações.
+
+O **Playwright MCP** conecta a automação do Playwright a um assistente de IA por meio do protocolo MCP. O assistente pode solicitar ações ao servidor e interpretar os resultados.
+
+Em resumo: **Playwright automatiza o navegador; MCP permite que um assistente use essa automação.**
+
 > **Importante:** o MCP normalmente abre um navegador próprio controlado pelo Playwright. Ele não controla automaticamente uma janela já aberta do Chrome nem a sessão do navegador integrado do VS Code; são formas diferentes de automação.
 
 ## Atalhos úteis no VS Code (Windows)
